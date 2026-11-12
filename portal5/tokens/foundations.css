@@ -1,0 +1,68 @@
+/* BIOCAD Portal 5 — типографика, радиусы, тени, анимации, z-index, layout. Auto-generated from @portal5/frontend-library@0.17.13. Не редактировать вручную — правьте источник в src/ui-kit и перегенерируйте. */
+
+:root {
+  --radius-2xs: 4px; /* @kind spacing */
+  --radius-xs: 6px; /* @kind spacing */
+  --radius-sm: 8px; /* @kind spacing */
+  --radius-md: 12px; /* @kind spacing */
+  --radius-lg: 16px; /* @kind spacing */
+  --radius-xl: 22px; /* @kind spacing */
+  --radius-2xl: 24px; /* @kind spacing */
+  --radius-3xl: 26px; /* @kind spacing */
+  --radius-full: 9999px; /* @kind spacing */
+  --shadow-xs: 0 1px 2px rgba(148, 163, 184, 0.12); /* @kind shadow */
+  --shadow-sm: 0 2px 5px rgba(148, 163, 184, 0.15); /* @kind shadow */
+  --shadow-md: 0 2px 20px rgba(148, 163, 184, 0.25); /* @kind shadow */
+  --shadow-lg: 0 4px 35px rgba(148, 163, 184, 0.15); /* @kind shadow */
+  --shadow-tooltip: 0 2px 5px rgba(148, 163, 184, 0.15); /* @kind shadow */
+  --shadow-dropdown: 0 2px 20px rgba(148, 163, 184, 0.25); /* @kind shadow */
+  --shadow-card: 0 4px 35px rgba(148, 163, 184, 0.15); /* @kind shadow */
+  --shadow-input-active: 0 0 0 2px var(--color-accent-ring); /* @kind shadow */
+  --shadow-ring: 0 0 0 2px var(--color-accent-ring); /* @kind shadow */
+  --shadow-overlay: 0 2.77px 2.21px rgba(104, 104, 104, 0.07), 0 6.65px 5.32px rgba(104, 104, 104, 0.05), 0 12.52px 10.02px rgba(104, 104, 104, 0.04), 0 22.34px 17.87px rgba(104, 104, 104, 0.035), 0 41.78px 33.42px rgba(104, 104, 104, 0.027), 0 100px 80px rgba(104, 104, 104, 0.02); /* @kind shadow */
+  --font-ui: 'Manrope', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; /* @kind font */
+  --font-display: 'Biocad Display', 'Manrope', -apple-system, system-ui, sans-serif; /* @kind font */
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace; /* @kind font */
+  --duration-fast: 100ms; /* @kind other */
+  --duration-base: 200ms; /* @kind other */
+  --duration-slow: 250ms; /* @kind other */
+  --duration-slower: 320ms; /* @kind other */
+  --duration-highlight: 3000ms; /* @kind other */
+  --duration-highlight-fade: 500ms; /* @kind other */
+  --duration-glow: 1500ms; /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --z-dropdown: 1000; /* @kind other */
+  --z-sticky: 1100; /* @kind other */
+  --z-fixed: 1200; /* @kind other */
+  --z-overlay: 1300; /* @kind other */
+  --z-modal: 1400; /* @kind other */
+  --z-popover: 1500; /* @kind other */
+  --z-toast: 1600; /* @kind other */
+  --z-tooltip: 1700; /* @kind other */
+  --header-h: 60px; /* @kind spacing */
+  --sidebar-w: 232px; /* @kind spacing */
+  --sidebar-w-collapsed: 60px; /* @kind spacing */
+  --container-max: 1400px; /* @kind spacing */
+  --text-xs: 12px; /* @kind spacing */
+  --leading-xs: 16px; /* @kind spacing */
+  --text-sm: 13px; /* @kind spacing */
+  --leading-sm: 18px; /* @kind spacing */
+  --text-base: 14px; /* @kind spacing */
+  --leading-base: 20px; /* @kind spacing */
+  --text-md: 16px; /* @kind spacing */
+  --leading-md: 24px; /* @kind spacing */
+  --text-lg: 18px; /* @kind spacing */
+  --leading-lg: 28px; /* @kind spacing */
+  --text-xl: 20px; /* @kind spacing */
+  --leading-xl: 28px; /* @kind spacing */
+  --text-2xl: 24px; /* @kind spacing */
+  --leading-2xl: 32px; /* @kind spacing */
+  --text-3xl: 32px; /* @kind spacing */
+  --leading-3xl: 40px; /* @kind spacing */
+  --weight-normal: 400; /* @kind other */
+  --weight-medium: 500; /* @kind other */
+  --weight-semibold: 600; /* @kind other */
+  --weight-bold: 700; /* @kind other */
+  --weight-extrabold: 800; /* @kind other */
+}

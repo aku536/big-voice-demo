@@ -1,0 +1,53 @@
+{
+  "source": "Portal 5 0.17.13",
+  "files": [
+    {
+      "path": "fonts/BiocadDisplay-Bold.ttf",
+      "sha256": "35171de9405c481a0caf6597a2a69b8218dff422506f3a410396025f1c57003a"
+    },
+    {
+      "path": "fonts/BiocadDisplay-Regular.ttf",
+      "sha256": "fea90f7843d9fa85ca5ea9fcff246150d34e898bb25fcc47c587513db5f4f6db"
+    },
+    {
+      "path": "fonts/Manrope-Variable-latin.woff2",
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+    },
+    {
+      "path": "fonts/JetBrainsMono-Variable-cyrillic.woff2",
+      "sha256": "d274604c40757f98f07df623a8b8fb5194508a6fa4f5413a7a107f09e3b7452a"
+    },
+    {
+      "path": "fonts/JetBrainsMono-Variable-latin.woff2",
+      "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+    },
+    {
+      "path": "fonts/Manrope-Variable-cyrillic.woff2",
+      "sha256": "c268b459a9329e59fecf39a17618efd44c71735532048d60b12aab76a8c14914"
+    },
+    {
+      "path": "assets/logo-full.svg",
+      "sha256": "049d6a996a5a77a8975b4feaed5eadac0ef77134a4a1b47711c37d0fbbb91ba8"
+    },
+    {
+      "path": "assets/logo-mark.svg",
+      "sha256": "db882ffa4a6803e15f76b2b1c3157a7c922ffdd5f632330799850496149fd8fd"
+    },
+    {
+      "path": "tokens/fonts.css",
+      "sha256": "51530ab1769322040815d1e23fec667240c3e04ab43680058e96ed204e74507f"
+    },
+    {
+      "path": "tokens/palette.css",
+      "sha256": "9382916da031251574a067ca5ae0a9777f8bb201a5262ced032c61f7b4a0e25b"
+    },
+    {
+      "path": "tokens/semantic.css",
+      "sha256": "67b018ff8843a7612e542457559d73c87c650dce8804cffdf37c40920301a2b5"
+    },
+    {
+      "path": "tokens/foundations.css",
+      "sha256": "834a305c15213b005f3ce1b8f2fa3d4a3adf7f9475ffcda2dd3c0f44d6ace983"
+    }
+  ]
+}
