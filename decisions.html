@@ -20,102 +20,97 @@
     [hidden]{display:none!important}@media(max-width:800px){.layout{grid-template-columns:1fr;gap:16px}aside{position:static}nav{grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}.intro{padding:26px 0 18px}}
   </style></head><body>
   <header><div class="wrap"><a href="./">← К исследованиям</a><img src="./portal5/assets/logo-full.svg" alt="BIOCAD"></div></header>
-  <main class="wrap"><div class="intro"><h1>Вопросы по BIG VOICE</h1><p>Выберите свой раздел и ответьте на вопросы, по которым можете принять решение. Если нужны коллеги или материалы, отметьте «Нужно уточнить» и укажите, к кому обратиться.</p></div>
-  <div class="layout"><aside><h2>Разделы</h2><nav aria-label="Разделы протокола"><a href="#section-source-format">Выгрузка и участие</a><a href="#section-scales">Расчёт показателей</a><a href="#section-hierarchy">Доступ и отчёты</a><a href="#section-moderation">Комментарии и план действий</a><a href="#section-environment">Передача в корпоративный контур</a></nav>
-    <div class="share"><strong id="progress">Заполнено 0 из 19</strong><progress id="progress-bar" max="19" value="0" aria-labelledby="progress"></progress>
+  <main class="wrap"><div class="intro"><h1>Вопросы по BIG VOICE</h1><p>После ответов от 13 ноября остались вопросы о сроках, данных и передаче результатов. Выберите свой раздел. Если для ответа нужен файл, укажите, когда и через какой корпоративный канал его можно получить.</p></div>
+  <div class="layout"><aside><h2>Разделы</h2><nav aria-label="Разделы протокола"><a href="#section-field-dashboard">Календарь исследования</a><a href="#section-questionnaire-files">Анкета и выгрузки</a><a href="#section-participation-disclosure">Участие и базы расчёта</a><a href="#section-report-formats">Отчёты и доступ</a><a href="#section-quote-approval">Открытые ответы и корпоративный запуск</a></nav>
+    <div class="share"><strong id="progress">Заполнено 0 из 18</strong><progress id="progress-bar" max="18" value="0" aria-labelledby="progress"></progress>
     <button type="button" id="copy" disabled>Скопировать ответы</button><p><small id="storage">Черновик хранится в этом браузере. Скопируйте заполненные ответы и отправьте их команде BIG VOICE.</small></p>
     <small role="status" id="copy-status"></small><div id="manual" hidden><label for="protocol-text">Текст для отправки</label><textarea readonly id="protocol-text" rows="8"></textarea></div></div>
-    </aside><div><details class="sheet"><summary>Уже согласовано</summary><ul><li>Опрос проводится в существующей системе. В BIG VOICE вручную загружают XLSX для анализа и сборки отчётов.</li><li>Для отчётов 2026 нужны шесть показателей: eNPS, mNPS, удовлетворённость, вовлечённость, условия работы (EVP) и NPS волонтёрства. Исторические отчёты служат образцом оформления и методики.</li><li>Для раскрытия результата требуется минимум пять человек, ответивших на конкретный вопрос в выбранном срезе. Число приглашённых для расчёта общего охвата можно указать при загрузке.</li><li>К 30 ноября нужны общий отчёт, отчёты подразделений и персональные отчёты руководителей. Для корпоративной поставки предусмотрены PDF и PPTX. Руководитель может добавлять текстовые выводы вручную.</li></ul></details>
-    <details class="sheet topic" id="section-source-format" open><summary>Выгрузка и участие</summary><p class="audience">Кому ответить — владельцу системы опросов и руководителю исследования.</p><article data-question="source-format">
-    <h3>Как устроена выгрузка 2026 года?</h3><p>Сводка по вопросам уже получена. Для настройки импорта нужен запрошенный ранее обезличенный пример, где одна строка соответствует одной анкете. Какие поля задают идентификатор анкеты, версию вопроса, коды вариантов и условия показа? Укажите, у кого есть справочник к файлу.</p>
-    <label class="answer-label" for="answer-source-format">Ваш ответ<span class="sr"> — Как устроена выгрузка 2026 года?</span></label>
-    <textarea id="answer-source-format" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как устроена выгрузка 2026 года?</span></label>
-  </article><article data-question="delivery">
-    <h3>Какие выгрузки понадобятся до закрытия опроса?</h3><p>Нужны ли промежуточные отчёты и с какой периодичностью? В каждом файле будут все анкеты на дату выгрузки или только новые и изменённые? По какому признаку распознать повтор? Когда после закрытия поступит финальный файл для отчётов к 30 ноября?</p>
-    <label class="answer-label" for="answer-delivery">Ваш ответ<span class="sr"> — Какие выгрузки понадобятся до закрытия опроса?</span></label>
-    <textarea id="answer-delivery" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие выгрузки понадобятся до закрытия опроса?</span></label>
-  </article><article data-question="participation">
-    <h3>Где учитываются приглашённые и кому отправляют напоминания?</h3><p>Кто предоставляет общее число приглашённых на ту же дату, что и выгрузка? Останутся ли поимённые списки прошедших опрос и отправка напоминаний в действующей системе опросов?</p>
-    <label class="answer-label" for="answer-participation">Ваш ответ<span class="sr"> — Где учитываются приглашённые и кому отправляют напоминания?</span></label>
-    <textarea id="answer-participation" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Где учитываются приглашённые и кому отправляют напоминания?</span></label>
-  </article></details><details class="sheet topic" id="section-scales" ><summary>Расчёт показателей</summary><p class="audience">Кому ответить — методологу исследования. Для проверки подойдёт небольшой контрольный пример с ожидаемыми результатами.</p><article data-question="scales">
-    <h3>Какие шкалы и базы брать из анкеты?</h3><p>Как закодированы шкалы в матрицах 2.1, 4.1 и 10.1? В вопросе 8.2 можно выбрать несколько вариантов, расставить их по порядку или сделать и то и другое? Как учитывать незавершённые анкеты, пропуски, «затрудняюсь», «не знаком с проектом» и вопросы, которые человеку не задавались?</p>
-    <label class="answer-label" for="answer-scales">Ваш ответ<span class="sr"> — Какие шкалы и базы брать из анкеты?</span></label>
-    <textarea id="answer-scales" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие шкалы и базы брать из анкеты?</span></label>
-  </article><article data-question="nps-satisfaction">
-    <h3>Как считать рекомендации и удовлетворённость?</h3><p>Для eNPS работодателя и mNPS руководителя предлагаем вычитать долю оценок 0–6 из доли оценок 9–10 среди ответивших по шкале 0–10. Оценки 7–8 входят в базу. Подходит ли этот расчёт также для NPS волонтёрства и какие участники туда входят — текущего года, прошлых лет или обеих групп? Для удовлетворённости берём долю «полностью удовлетворён» или объединяем несколько ответов?</p>
-    <label class="answer-label" for="answer-nps-satisfaction">Ваш ответ<span class="sr"> — Как считать рекомендации и удовлетворённость?</span></label>
-    <textarea id="answer-nps-satisfaction" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как считать рекомендации и удовлетворённость?</span></label>
-  </article><article data-question="engagement-evp">
-    <h3>Как свести вовлечённость и EVP?</h3><p>Для вовлечённости предлагаем усреднять доли «полностью согласен» по трём вопросам: отзывы о компании, намерение остаться на два года и мотивация. Какие вопросы и веса применять в 2026 году? Для EVP уточните список утверждений, границы согласных, нейтральных и несогласных на фактической шкале. Нужен ли общий балл EVP и как его считать? Кто сверит контрольные значения шести показателей?</p>
-    <label class="answer-label" for="answer-engagement-evp">Ваш ответ<span class="sr"> — Как свести вовлечённость и EVP?</span></label>
-    <textarea id="answer-engagement-evp" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как свести вовлечённость и EVP?</span></label>
-  </article><article data-question="small-base">
-    <h3>Когда ставить отметку «Малая база»?</h3><p>Как в 2025 году решали, что уже опубликованный результат нужно пометить звёздочкой? Такая пометка встречалась и при 69 ответивших. Какое правило применять в 2026 году и к каким показателям?</p>
-    <label class="answer-label" for="answer-small-base">Ваш ответ<span class="sr"> — Когда ставить отметку «Малая база»?</span></label>
-    <textarea id="answer-small-base" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Когда ставить отметку «Малая база»?</span></label>
-  </article><article data-question="significance">
-    <h3>Когда разницу считать статистически значимой?</h3><p>С кем в 2025 году сравнивали подразделение — со всей компанией, с остальными подразделениями или с другой группой? Какой статистический тест и уровень значимости применяли? Нужна ли эта проверка в 2026 году и для каких сравнений достаточно показать разницу в пунктах?</p>
-    <label class="answer-label" for="answer-significance">Ваш ответ<span class="sr"> — Когда разницу считать статистически значимой?</span></label>
-    <textarea id="answer-significance" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Когда разницу считать статистически значимой?</span></label>
-  </article></details><details class="sheet topic" id="section-hierarchy" ><summary>Доступ и отчёты</summary><p class="audience">Кому ответить — руководителю исследования, владельцу оргструктуры и представителю руководителей.</p><article data-question="hierarchy">
-    <h3>Как определить команду руководителя и границы доступа?</h3><p>Из какого справочника брать подразделение и прямого руководителя на дату опроса? Есть ли в нём устойчивые идентификаторы? В персональный отчёт входят только прямые подчинённые или также вложенные подразделения? Может ли руководитель видеть общий результат компании для сравнения?</p>
-    <label class="answer-label" for="answer-hierarchy">Ваш ответ<span class="sr"> — Как определить команду руководителя и границы доступа?</span></label>
-    <textarea id="answer-hierarchy" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как определить команду руководителя и границы доступа?</span></label>
-  </article><article data-question="filters">
-    <h3>Какие фильтры нужны руководителю?</h3><p>Какие признаки нужны для разбора ответов на экране, а какие должны попасть в итоговый отчёт? Например, подразделение, площадка, стаж, категория должности или прямая команда. Приведите один срез, которым руководитель воспользуется на встрече.</p>
-    <label class="answer-label" for="answer-filters">Ваш ответ<span class="sr"> — Какие фильтры нужны руководителю?</span></label>
-    <textarea id="answer-filters" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие фильтры нужны руководителю?</span></label>
-  </article><article data-question="permissions">
-    <h3>Кто может менять данные, отчёты и скачивать результаты?</h3><p>Какие действия разрешены аналитику и руководителю — загрузить или удалить исследование, создать, изменить, удалить или скачать отчёт, выгрузить агрегаты графика в PNG и XLSX? Нужны ли кому-либо построчные выгрузки? Если да, укажите получателя, цель и разрешённые поля.</p><p>Если руководителю доступны несколько персональных и подразделенческих отчётов, в какие из них он может добавить график или одобренную цитату? Может ли он дополнять отчёт, созданный другим сотрудником?</p>
-    <label class="answer-label" for="answer-permissions">Ваш ответ<span class="sr"> — Кто может менять данные, отчёты и скачивать результаты?</span></label>
-    <textarea id="answer-permissions" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Кто может менять данные, отчёты и скачивать результаты?</span></label>
-  </article><article data-question="report-layout">
-    <h3>Что руководителю нужно на первой странице отчёта?</h3><p>В обновлённом примере рядом с выводом стоит таблица показателей подразделения и компании. Какие показатели оставить на первом слайде, а какие перенести в подробную часть? Какие блоки из общих и подразделенческих отчётов 2025 сохранить? Есть ли отдельный образец персонального отчёта?</p>
-    <label class="answer-label" for="answer-report-layout">Ваш ответ<span class="sr"> — Что руководителю нужно на первой странице отчёта?</span></label>
-    <textarea id="answer-report-layout" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Что руководителю нужно на первой странице отчёта?</span></label>
-  </article><article data-question="report-acceptance">
-    <h3>Кто готовит выводы и принимает три вида отчётов?</h3><p>Укажите ответственных за текст выводов и приёмку общего, подразделенческого и персонального отчётов к 30 ноября. Подходит ли формат слайдов 16:9 и в каких приложениях нужно проверить PDF и презентацию перед передачей?</p>
-    <label class="answer-label" for="answer-report-acceptance">Ваш ответ<span class="sr"> — Кто готовит выводы и принимает три вида отчётов?</span></label>
-    <textarea id="answer-report-acceptance" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Кто готовит выводы и принимает три вида отчётов?</span></label>
-  </article></details><details class="sheet topic" id="section-moderation" ><summary>Комментарии и план действий</summary><p class="audience">Кому ответить — владельцу исследования, модератору и представителю руководителей.</p><article data-question="moderation">
-    <h3>Какая работа с комментариями нужна в первой версии?</h3><p>Нужны ли сводка по темам, одобренные цитаты в отчёте и карта проблем взаимодействия? Кто размечает тему и тональность каждого ответа, кто обезличивает текст и кто окончательно одобряет цитату? Что видит руководитель своего подразделения и участвует ли он в проверке?</p>
-    <label class="answer-label" for="answer-moderation">Ваш ответ<span class="sr"> — Какая работа с комментариями нужна в первой версии?</span></label>
-    <textarea id="answer-moderation" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какая работа с комментариями нужна в первой версии?</span></label>
-  </article><article data-question="redaction">
-    <h3>Какие детали подсвечивать перед одобрением цитаты?</h3><p>По каким справочникам можно распознавать имена, должности, названия проектов и небольших команд? Как определяется малая команда для проверки текста? Укажите владельца справочника или приведите вымышленный пример фразы, которую модератор должен обезличить.</p>
-    <label class="answer-label" for="answer-redaction">Ваш ответ<span class="sr"> — Какие детали подсвечивать перед одобрением цитаты?</span></label>
-    <textarea id="answer-redaction" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие детали подсвечивать перед одобрением цитаты?</span></label>
+    </aside><div><details class="sheet"><summary>Уже согласовано</summary><ul><li>Для шести основных показателей определены формулы и контрольные значения для сверки. В первый релиз входят динамика за 2023–2026 годы, ИИ-разбор открытых ответов и рекомендации по агрегированным показателям.</li><li>Результаты доступны на уровне компании, направления бизнеса и департамента. Отчёт департамента предназначен его директору. По отдельным руководителям и прямым командам результаты не выводятся.</li><li>Для показа результата нужны минимум пять ответивших на конкретный вопрос после фильтрации. Если маленькую группу можно вычислить вычитанием, скрываются обе части.</li><li>Участие обновляется минимум раз в сутки. Цель — 90% по компании и каждому подразделению. Отправленные анкеты учитываются по статусу Portal 5, численность приглашённых предоставляет HR на дату старта.</li></ul></details>
+    <details class="sheet topic" id="section-field-dashboard" open><summary>Календарь исследования</summary><p class="audience">Кому ответить — руководителю исследования и владельцу Portal 5.</p><article data-question="field-dashboard">
+    <h3>Где руководители увидят участие с 16 ноября?</h3><p>Сбор начинается 16 ноября, запуск BIG VOICE в корпоративном контуре запланирован на 27 ноября. На каком экране руководители смогут ежедневно видеть участие в этот период? С какой даты за ежедневные показатели отвечает BIG VOICE?</p>
+    <label class="answer-label" for="answer-field-dashboard">Ваш ответ<span class="sr"> — Где руководители увидят участие с 16 ноября?</span></label>
+    <textarea id="answer-field-dashboard" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Где руководители увидят участие с 16 ноября?</span></label>
+  </article><article data-question="final-calendar">
+    <h3>Какой результат нужен 30 ноября и когда передать итоговые отчёты?</h3><p>В прежнем плане отчёты требовались 30 ноября. По новому календарю опрос открыт до 6 декабря. Что нужно передать 30 ноября и на какую дату брать данные? Когда после закрытия будет доступна финальная выгрузка и к какому сроку нужны отчёты по всем трём уровням?</p>
+    <label class="answer-label" for="answer-final-calendar">Ваш ответ<span class="sr"> — Какой результат нужен 30 ноября и когда передать итоговые отчёты?</span></label>
+    <textarea id="answer-final-calendar" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какой результат нужен 30 ноября и когда передать итоговые отчёты?</span></label>
+  </article></details><details class="sheet topic" id="section-questionnaire-files" ><summary>Анкета и выгрузки</summary><p class="audience">Кому ответить — владельцу системы опросов, методологу и HR.</p><article data-question="questionnaire-files">
+    <h3>Когда будут доступны финальная анкета и пример выгрузки?</h3><p>Для настройки импорта нужны анкета 3.6, справочник вопросов с кодами вариантов и условиями показа, а также обезличенный пример с одной строкой на анкету. Как получить эти материалы? В примере важно увидеть, как записаны пропуск, вопрос вне маршрута, статус отправки и длительность заполнения, если платформа её сохраняет.</p>
+    <label class="answer-label" for="answer-questionnaire-files">Ваш ответ<span class="sr"> — Когда будут доступны финальная анкета и пример выгрузки?</span></label>
+    <textarea id="answer-questionnaire-files" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Когда будут доступны финальная анкета и пример выгрузки?</span></label>
+  </article><article data-question="daily-files">
+    <h3>Как будет поступать ежедневное обновление?</h3><p>Кто передаёт данные и к какому времени они доступны? Файл содержит все анкеты на дату выгрузки или только изменения? Если поступают изменения, по какому обезличенному идентификатору распознать исправленную или повторно выгруженную анкету?</p>
+    <label class="answer-label" for="answer-daily-files">Ваш ответ<span class="sr"> — Как будет поступать ежедневное обновление?</span></label>
+    <textarea id="answer-daily-files" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как будет поступать ежедневное обновление?</span></label>
+  </article><article data-question="hr-files">
+    <h3>Когда HR сможет передать справочники и численность приглашённых?</h3><p>Для расчёта участия нужны численность на дату старта и соответствие «департамент → направление бизнеса». Для сравнения лет нужна таблица соответствия подразделений за 2023–2026 годы. В каком виде и когда будут доступны эти материалы?</p>
+    <label class="answer-label" for="answer-hr-files">Ваш ответ<span class="sr"> — Когда HR сможет передать справочники и численность приглашённых?</span></label>
+    <textarea id="answer-hr-files" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Когда HR сможет передать справочники и численность приглашённых?</span></label>
+  </article><article data-question="history-files">
+    <h3>Какие выгрузки прошлых лет доступны для пересчёта?</h3><p>Для проверки методики первым нужен обезличенный файл индивидуальных анкет за 2025 год. Когда и где можно получить его и файлы за 2023 и 2024 годы? По каким волнам сохранились словари вопросов и вариантов ответа?</p>
+    <label class="answer-label" for="answer-history-files">Ваш ответ<span class="sr"> — Какие выгрузки прошлых лет доступны для пересчёта?</span></label>
+    <textarea id="answer-history-files" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие выгрузки прошлых лет доступны для пересчёта?</span></label>
+  </article></details><details class="sheet topic" id="section-participation-disclosure" ><summary>Участие и базы расчёта</summary><p class="audience">Кому ответить — методологу исследования и ответственному за конфиденциальность.</p><article data-question="participation-disclosure">
+    <h3>Что показывать об участии, если в департаменте меньше пяти человек?</h3><p>В правилах дашборда для факта прохождения предусмотрено исключение, а в итоговом комментарии порог пяти указан без исключений. Например, опрос назначен четырём сотрудникам, трое его прошли. Можно ли директору показать «3 из 4», процент и число недостающих анкет? Что в этом случае видят остальные пользователи дашборда?</p>
+    <label class="answer-label" for="answer-participation-disclosure">Ваш ответ<span class="sr"> — Что показывать об участии, если в департаменте меньше пяти человек?</span></label>
+    <textarea id="answer-participation-disclosure" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Что показывать об участии, если в департаменте меньше пяти человек?</span></label>
+  </article><article data-question="eligible-questions">
+    <h3>Как проверить заполнение 80% вопросов при ветвлении анкеты?</h3><p>Если платформа передаёт неотправленные анкеты, для расчёта показателей задан минимум 80% закрытых вопросов. Если сотруднику не показывали блок для руководителей, брать за основу только вопросы, которые ему задали? Входят ли в этот расчёт необязательные закрытые вопросы «о себе»?</p>
+    <label class="answer-label" for="answer-eligible-questions">Ваш ответ<span class="sr"> — Как проверить заполнение 80% вопросов при ветвлении анкеты?</span></label>
+    <textarea id="answer-eligible-questions" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как проверить заполнение 80% вопросов при ветвлении анкеты?</span></label>
+  </article></details><details class="sheet topic" id="section-report-formats" ><summary>Отчёты и доступ</summary><p class="audience">Кому ответить — руководителю исследования, представителю директоров и владельцу данных.</p><article data-question="report-formats">
+    <h3>Нужна ли презентация PPTX вместе с PDF?</h3><p>В ответах от 13 ноября указаны просмотр в сервисе и брендированный PDF. Раньше для передачи предусматривалась также презентация. Нужен ли PPTX в первой поставке? Если да, подходит ли размер 16:9 и в каком приложении проверить файл?</p>
+    <label class="answer-label" for="answer-report-formats">Ваш ответ<span class="sr"> — Нужна ли презентация PPTX вместе с PDF?</span></label>
+    <textarea id="answer-report-formats" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Нужна ли презентация PPTX вместе с PDF?</span></label>
+  </article><article data-question="department-summary">
+    <h3>Что директор должен увидеть на первой странице отчёта?</h3><p>Какие показатели и вывод нужны директору департамента в начале отчёта? Если уже есть подходящий образец для департамента или направления бизнеса, укажите, где его посмотреть.</p>
+    <label class="answer-label" for="answer-department-summary">Ваш ответ<span class="sr"> — Что директор должен увидеть на первой странице отчёта?</span></label>
+    <textarea id="answer-department-summary" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Что директор должен увидеть на первой странице отчёта?</span></label>
+  </article><article data-question="report-signoff">
+    <h3>Кто принимает отчёты и утверждает рекомендации?</h3><p>Кто проверяет выводы и рекомендации ИИ перед передачей отчёта по компании, направлению и департаменту? Укажите роль для каждого уровня и кто может вернуть отчёт на правку.</p>
+    <label class="answer-label" for="answer-report-signoff">Ваш ответ<span class="sr"> — Кто принимает отчёты и утверждает рекомендации?</span></label>
+    <textarea id="answer-report-signoff" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Кто принимает отчёты и утверждает рекомендации?</span></label>
+  </article><article data-question="role-access">
+    <h3>Какие данные и действия доступны каждой роли?</h3><p>Какие департаменты и направления видят аналитик, директор департамента и руководитель направления? Разрешено ли им видеть значения других департаментов во внутреннем рейтинге или только место своего? Укажите, кто загружает и удаляет исследования, редактирует отчёты и скачивает результаты.</p>
+    <label class="answer-label" for="answer-role-access">Ваш ответ<span class="sr"> — Какие данные и действия доступны каждой роли?</span></label>
+    <textarea id="answer-role-access" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какие данные и действия доступны каждой роли?</span></label>
+  </article><article data-question="action-tracking">
+    <h3>Как руководитель работает с рекомендациями после получения отчёта?</h3><p>Достаточно ли списка рекомендаций в отчёте или в сервисе нужно вести план действий? Если нужен план, кто выбирает меры, назначает исполнителей и отмечает выполнение?</p>
+    <label class="answer-label" for="answer-action-tracking">Ваш ответ<span class="sr"> — Как руководитель работает с рекомендациями после получения отчёта?</span></label>
+    <textarea id="answer-action-tracking" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Как руководитель работает с рекомендациями после получения отчёта?</span></label>
+  </article></details><details class="sheet topic" id="section-quote-approval" ><summary>Открытые ответы и корпоративный запуск</summary><p class="audience">Кому ответить — владельцу исследования, ответственному за данные и координатору запуска.</p><article data-question="quote-approval">
+    <h3>Кто выбирает цитаты и проверяет обезличивание?</h3><p>ИИ подбирает цитаты по темам, человек выбирает их для отчёта. Кто может увидеть исходный текст, проверить замену имён и других узнаваемых деталей и одобрить окончательную формулировку? Есть ли корпоративные правила обезличивания для такой проверки?</p>
+    <label class="answer-label" for="answer-quote-approval">Ваш ответ<span class="sr"> — Кто выбирает цитаты и проверяет обезличивание?</span></label>
+    <textarea id="answer-quote-approval" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Кто выбирает цитаты и проверяет обезличивание?</span></label>
   </article><article data-question="escalation">
     <h3>Кому передавать чувствительный сигнал?</h3><p>Какие сообщения модератор должен передавать на отдельное рассмотрение? Кто видит закрытую очередь, принимает решение и в какой срок? Что после переноса могут видеть модератор и руководитель?</p>
     <label class="answer-label" for="answer-escalation">Ваш ответ<span class="sr"> — Кому передавать чувствительный сигнал?</span></label>
     <textarea id="answer-escalation" rows="2"></textarea>
     <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Кому передавать чувствительный сигнал?</span></label>
-  </article><article data-question="actions">
-    <h3>Нужен ли «План действий» в первой версии?</h3><p>Если да, как руководитель получает меры — формулирует сам, выбирает готовые рекомендации или использует оба способа? Кто готовит и обновляет список рекомендаций?</p>
-    <label class="answer-label" for="answer-actions">Ваш ответ<span class="sr"> — Нужен ли «План действий» в первой версии?</span></label>
-    <textarea id="answer-actions" rows="2"></textarea>
-    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Нужен ли «План действий» в первой версии?</span></label>
-  </article></details><details class="sheet topic" id="section-environment" ><summary>Передача в корпоративный контур</summary><p class="audience">Кому ответить — владельцу данных и координатору запуска.</p><article data-question="environment">
+  </article><article data-question="environment">
     <h3>Где можно проверить реальную выгрузку?</h3><p>Какая корпоративная площадка и канал передачи разрешены для обезличенных анкет и контрольных расчётов? Кто со стороны владельца данных и информационной безопасности подтверждает допуск?</p>
     <label class="answer-label" for="answer-environment">Ваш ответ<span class="sr"> — Где можно проверить реальную выгрузку?</span></label>
     <textarea id="answer-environment" rows="2"></textarea>
     <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Где можно проверить реальную выгрузку?</span></label>
+  </article><article data-question="ai-environment">
+    <h3>Какой ИИ-сервис разрешён для обработки ответов?</h3><p>Для выделения тем нужны тексты открытых ответов, для рекомендаций — агрегированные показатели. Какой сервис в корпоративном контуре разрешён для каждой задачи? Кто предоставляет доступ для проверки и согласует хранение текстов и результатов обработки?</p>
+    <label class="answer-label" for="answer-ai-environment">Ваш ответ<span class="sr"> — Какой ИИ-сервис разрешён для обработки ответов?</span></label>
+    <textarea id="answer-ai-environment" rows="2"></textarea>
+    <label class="check"><input type="checkbox"> Нужно уточнить<span class="sr"> — Какой ИИ-сервис разрешён для обработки ответов?</span></label>
   </article><article data-question="release">
     <h3>Кто координирует запуск к 27 ноября?</h3><p>Укажите контакты по инфраструктуре (DevOps), управлению доступом (IDM) и информационной безопасности (ДИБ). Кто подтверждает доступы и сроки согласований для запуска и кому передать сборку для проверки?</p>
     <label class="answer-label" for="answer-release">Ваш ответ<span class="sr"> — Кто координирует запуск к 27 ноября?</span></label>
